@@ -1,0 +1,56 @@
+.modulescontainer{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 50px;
+    padding: 50px 25px;
+    background-color: #F5F5F5;
+}
+.modules p{
+    font-size: 29px;
+}
+.modulefirst{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+}
+
+.modulesecond{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+}
+
+.modules{
+    border: solid 1px black;
+    width: 317px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 11px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link p{
+    text-decoration: none;
+}
+
+.modules:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #1ea2e9;
+    width: 350px;
+    height: 290px;
+}
+
+.modules img{
+        width: 100px;
+}

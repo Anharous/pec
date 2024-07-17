@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+} */
+
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  animation: slide 12s infinite;
+}
+
+.slide {
+  width: 33.3333%;
+  transition: transform 1s;
+  height: 600px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33.33% { transform: translateX(-33.3333%); }
+  66.66% { transform: translateX(-66.6666%); }
+  100% { transform: translateX(0); }
+}
+
+
+
+/* .slider {
+    display: grid;
+    grid-auto-flow: column;
+    overflow: hidden;
+    
+    
+}
+
+.slides { 
+   
+    animation: slide 22s infinite;
+}
+
+.slide {
+   
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 5s;
+}
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+} 
+
+#hero_one{
+    max-width: 1503px;
+    width: 100%;
+    max-height: 713px;
+    height: 100%;
+    
+}
+
+#hero_two{
+    width: 949px;
+    width: 100%;
+    max-height: 712px;
+    height: 100%;
+
+}
+#hero_three{
+    width: 1503px;
+    width: 100%;
+    max-height: 712px;
+    height: 100%;
+}   */
+
+/* 
+.hero{
+    display: grid;
+    grid-auto-flow: column;
+    overflow: hidden;
+    
+}
+
+
+.slide{   
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 5s;  
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    35% { transform: translateX(-100%); }
+    65% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}  
+
+#hero_one{
+    max-width: 1503px;
+    width: 100%;
+    max-height: 713px;
+    height: 100%;
+    
+}
+
+#hero_two{
+    width: 949px;
+    width: 100%;
+    max-height: 712px;
+    height: 100%;
+
+}
+#hero_three{
+    width: 1503px;
+    width: 100%;
+    max-height: 712px;
+    height: 100%;
+}   */

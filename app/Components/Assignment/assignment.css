@@ -1,0 +1,85 @@
+body {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+}
+h2 {
+        padding-top: 21px;
+    margin-bottom: 22px;
+    font-size: 30px;
+    text-align: center;
+}
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.btn-container button {
+    margin-bottom: 10px;
+    height: 46px;
+    border-radius: 35px;
+    font-size: 16px;
+}
+.content-section {
+    display: none;
+    margin-top: 20px;
+}
+.content-section.active {
+    display: block;
+    width: 500px;
+    height: 610px;
+    background-color: white;
+        margin: 0px 504px;
+}
+#submitAssignmentContent p, #analyzeSubmissionsContent p, #markAssignmentsContent p{
+    font-size: 20px;
+    padding: 0px 37px;
+}
+.phase{
+        width: 445px;
+    height: 369px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 63px 502px;
+    place-content: center;
+ 
+}
+
+.form-group{
+    display: grid;
+    padding: 6px 40px;
+}
+
+.form-group label{
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+
+.form-group input{
+        height: 34px;
+    border-radius: 25px;
+    padding: 0px 11px;
+
+}
+
+.form-control{
+    border-radius: 9px;
+    height: 57px;
+    border: ridge 2px black;
+}
+
+.btn-submit{
+    width: 90px;
+    height: 34px;
+    border-radius: 14px;
+    font-size: 16px;
+    place-items: center;
+    margin: 8px 205px;
+}
+
+.btn-upload{
+    width: 90px;
+    margin: 0px 208px;
+    height: 35px;
+    border-radius: 14px;
+}
